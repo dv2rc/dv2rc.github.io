@@ -86,6 +86,7 @@ h1 {
 .table-wrapper h2 {
   margin-bottom: 20px;
   color: #00ffff;
+  font-family: 'Tagesschrift', sans-serif; /* Apply Tagesschrift font */
 }
 
 table {
