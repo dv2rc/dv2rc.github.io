@@ -156,3 +156,16 @@ a:hover {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+}
