@@ -1,0 +1,157 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0c0c0c;
+  color: #e0e0e0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  padding: 40px 20px;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ffff;
+  font-family: 'Tagesschrift', sans-serif; /* Apply Tagesschrift font */
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 10px;
+  font-family: 'Tagesschrift', sans-serif; /* Apply Tagesschrift font */
+}
+
+.button-row {
+  margin-top: 25px;
+}
+
+.button {
+  display: inline-block;
+  background: #00ffff;
+  color: #000;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #00cccc;
+}
+
+/* Video */
+.video-wrapper {
+  margin: 40px 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffff44;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Table */
+.table-wrapper {
+  margin-top: 40px;
+}
+
+.table-wrapper h2 {
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead {
+  background: #222;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Q&A */
+.qa-section {
+  margin-top: 80px;
+  padding: 20px;
+  background: #111;
+  border-radius: 10px;
+}
+
+.qa-section h2 {
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+.qa-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.qa-section li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  color: #ccc;
+}
+
+.qa-section li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: #00ffff;
+}
+
+/* Disclaimer */
+.disclaimer {
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
